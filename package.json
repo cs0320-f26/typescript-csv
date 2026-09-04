@@ -1,0 +1,27 @@
+{
+  "name": "cs32-f25-csv-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "run": "npx ts-node ./src/run-parser.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.3",
+    "jest": "^30.1.1",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": "Starter code for CSCI 0320's sprint 1 in Fall 2025"
+}
