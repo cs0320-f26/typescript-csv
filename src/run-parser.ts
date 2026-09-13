@@ -1,4 +1,4 @@
-import { parseCSV } from "./basic-parser";
+import { parseCSV } from "./parse";
 
 /*
   Example of how to run the parser outside of a test suite.
