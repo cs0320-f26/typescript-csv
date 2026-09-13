@@ -1,5 +1,5 @@
 # Sprint 1: TypeScript CSV
-You may alter the structure of this template, but be sure to use headings and conform as best as possible to [Brown’s Course Accessibility Standards] (https://docs.google.com/document/d/1AuFg_7NfEWbrYrvf8aO4NqApnovTnjQ3MleJfYeW_jw/edit?tab=t.0#heading=h.pvldn3834ao9)
+You may alter the structure of this template, but be sure to use headings and conform as best as possible to [Brown’s Course Accessibility Standards](https://docs.google.com/document/d/1AuFg_7NfEWbrYrvf8aO4NqApnovTnjQ3MleJfYeW_jw/edit?tab=t.0#heading=h.pvldn3834ao9)
 
 ### Task A: Claude Response Critique (MWD)
 How much do you trust the quote? How much do you agree with the idea? Why or why not?
