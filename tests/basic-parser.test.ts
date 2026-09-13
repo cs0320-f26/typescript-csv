@@ -1,11 +1,13 @@
 import { parseCSV } from "../src/parse";
 import { createReadStream } from "node:fs";
+import { toReadable } from "../src/utils";
+
 import * as path from "path";
 
 const PEOPLE_CSV_PATH = path.join(__dirname, "../data/people.csv");
 
 test("parseCSV yields arrays", async () => {
-  const results = await parseCSV(createReadStream(PEOPLE_CSV_PATH))
+  const results = await parseCSV(toReadable({kind: 'file', path: PEOPLE_CSV_PATH}));
 
   expect(results).toHaveLength(5);
   expect(results[0]).toEqual(["name", "age"]);
@@ -16,7 +18,7 @@ test("parseCSV yields arrays", async () => {
 });
 
 test("parseCSV yields only arrays", async () => {
-  const results = await parseCSV(createReadStream(PEOPLE_CSV_PATH))
+  const results = await parseCSV(toReadable({kind: 'file', path: PEOPLE_CSV_PATH}));
   for(const row of results) {
     expect(Array.isArray(row)).toBe(true);
   }
