@@ -1,32 +1,17 @@
 # Sprint 1: TypeScript CSV
+You may alter the structure of this template, but be sure to use headings and conform as best as possible to [Brown’s Course Accessibility Standards] (https://docs.google.com/document/d/1AuFg_7NfEWbrYrvf8aO4NqApnovTnjQ3MleJfYeW_jw/edit?tab=t.0#heading=h.pvldn3834ao9)
 
-### Task C: Proposing Enhancement
+### Task A: Claude Response Critique (MWD)
+How much do you trust the quote? How much do you agree with the idea? Why or why not?
 
-- #### Step 1: Brainstorm on your own.
+### Tasks B-E: Testing Reflections
+- In what ways does the parser fail to meet the CSV Spec? What test cases did you identify? How did the 0320 Agent do without the full spec?
+- What issues does the PBT Test find? How does it compare to the issues you found in Tasks B&C?
+- How did you use tests in writing the search function? How did the AI do?
 
-- #### Step 2: Use an LLM to help expand your perspective.
+### Task F: Sprint Reflection
+In what ways did this sprint differ from prior programming assignments you’ve done outside of 0320? Did anything surprise you? Did you encounter any bugs during your work on this sprint? If yes, what were they and how did you fix them? If not, why do you think that was?
 
-- #### Step 3: use an LLM to help expand your perspective.
-
-    Include a list of the top 4 enhancements or edge cases you think are most valuable to explore in the next week’s sprint. Label them clearly by category (extensibility vs. functionality), and include whether they came from you, the LLM, or both. Describe these using the User Story format—see below for a definition. 
-
-    Include your notes from above: what were your initial ideas, what did the LLM suggest, and how did the results differ by prompt? What resonated with you, and what didn’t? (3-5 sentences.) 
-
-### Design Choices
-
-### 1340 Supplement
-
-- #### 1. Correctness
-
-- #### 2. Random, On-Demand Generation
-
-- #### 3. Overall experience, Bugs encountered and resolved
-#### Errors/Bugs:
-#### Tests:
-#### How To…
-
-#### Team members and contributions (include cs logins):
-
-#### Collaborators (cslogins of anyone you worked with on this project and/or generative AI):
+#### Collaborators (cslogins of anyone you worked with on this project or generative AI):
 #### Total estimated time it took to complete project:
-#### Link to GitHub Repo:  
+#### Link to GitHub Repo: 
