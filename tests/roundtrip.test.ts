@@ -19,4 +19,7 @@ if(!(arbitraryTable instanceof fc.Arbitrary)) {
   throw new Error("Generator factory produced error, could not run the roundtrip test suite.")
 }
 
-//TODO: Write a Property-Based Test using your serializer, plus the parser and the generator we provide
+
+describe("CSV round-trip PBT test", () => {
+  //TODO: Write a Property-Based Test using your serializer, plus the parser and the generator we provide
+});
